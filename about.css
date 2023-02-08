@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sauce one;
+}
+
+header, section{
+    overflow-x: hidden;
+}
+
+a{
+    color:  black !important;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.nav-item:last-child{
+    padding-right: 6.5em;
+}
+
+.nav-item{
+    padding: 0.9em;
+}
+
+.navbar-brand{
+    padding-left: 6.5em;
+}
+
+.section{
+    height: 75vh;
+    background: #1F1C1C;
+    width: 100%;
+}
+
+.Bridge{
+    color: white;
+    margin-top: 24vmin;
+}
+
+.Bridge h1{
+    font-size:98px;
+    text-align: center;
+}
+
+.Bridge p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.float-left{
+    margin-left: -16vmin;
+    margin-top: -21vmin;
+}
+
+.float-right{
+    margin-top: -60vmin;
+    margin-right: -40vmin;
+}
+
+
+.btn{
+    width: 10%;
+    margin-top: 55px;
+    background: #FF5353;
+    color: white;
+}
+
+
+.section-1{
+    background: white;
+    height: 70vh;
+}
+
+.about-section h1{
+    margin-top: 8vmin;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-section p{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.learn{
+    text-align: center;
+    color: #FF5353;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about-section img{
+    margin-bottom: -22vmin;
+    margin-left: 38vmin;
+}
+
+.about-section .second{
+    margin-top: -30.5vmin;
+    margin-left: 63vmin;
+}
+
+/* section2 part */
+
+.section2{
+    background: #000000;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: -10vmin;
+}
+
+.small-section h4{
+     color: white;
+     text-align: center;
+     font-size: 40px;
+     font-family: abhaya libre ;
+     padding-top: 8vmin;
+}
+
+
+
+/* Section 5 */
+
+.section5{
+    background: #555151;
+}
+
+
+.root{
+    margin-left: 13vmin;
+    margin-top: 4.5vmin;
+}
+
+.sign{
+    color: white;
+    font-size: 50px;
+    font-family: Abeezee;
+    padding-bottom: 14px;
+}
+
+.toll{
+    font-size: 18px;
+    font-family: open sauce one;
+    color: #ffffff;
+}
+
+.input-group{
+    margin-left: -18px;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 10px !important;
+    width: 3%;
+    height: 50px !important;
+    border: none !important;
+    font-family: Abeezee;
+}
+
+.btn1{
+    height: 50px;
+    width: 25% !important;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #FF5353 !important;
+    box-shadow: none !important;
+    color: white;
+    border: none;
+    font-family: Abeezee;
+    outline: none !important;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background: #FF5353;
+}
+
+.div{
+    margin-top: 13px;
+}
+
+.text{
+    margin-left: 13vmin;
+    color: white;
+    font-family: Abeezee;
+}
+
+.woo{
+    margin-left: 5vmin;
+    
+}
+
+.woo img{
+    width: 135%;
+    height: 31.5vmin;
+}
+
+/* section6 */
+
+.section6{
+    background: #D8D8D8;
+}
+
+.project{
+    font-size: 60px;
+    margin-top: 5vmin;
+    font-family:Athletics;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.blow{
+    font-family:open sauce two ;
+    font-size: 25px;
+    margin-top: 5vmin;
+    margin-left: 13vmin;
+    color: black;
+}
+
+.abina{
+    color: blue;
+}
+
+.from{
+    margin-top: 5vmin;
+    margin-left: 13vmin;
+}
+
+ .from .form-control{
+    height: 60px !important;
+    width: 100% !important ;
+}
+
+
+textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none !important;
+}
+
+
+/* checkbox */
+
+
+ul {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style: none;
+  }
+  
+  /* ADDITIONAL STYLING */
+  
+  /* The container */
+  .container {
+    display: block;
+    font-family: open sauce two;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #eee;
+    margin-left: -25px;
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #FF5353;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .ceep{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: -20px;
+  }
+
+  .btn2{
+    width: 90%;
+    height: 50px;
+    margin-left: -25px;
+    border: none !important;
+    border-radius: 10px;
+    outline: none !important;
+    background: #FF5353;
+    color: white;
+  }
+
+  .btn2:hover{
+   cursor: pointer;
+  }
+
+  .long{
+    background: #F3E0E0;
+    height: 130vmin;
+    width: 100%;
+    margin-left: 2vmin;
+  }
+
+
+  /* section7 */
+  
+  
+  footer{
+    background: #313131;
+  }
+
+
+  .pool img{
+    margin-left: 15vmin;
+    padding-top: 5vmin;
+    padding-bottom: 4vmin;
+    width: 60%;
+  }
+
+  .sim ul{
+    margin-left: 13vmin;
+    padding-top: 5vmin;
+    padding-bottom: 4vmin;
+    
+  }
+
+  .sim .nav-item{
+    padding: 0.1em !important;
+}
+
+.sim a{
+    color:  rgb(255, 255, 255) !important;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Open Sauce Two;
+}
+
+.sd{
+    margin-top: 6vmin;
+    color: #eee;
+    font-size: 20px;
+    margin-right: 10vmin;
+}
+  
